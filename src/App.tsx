@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import cat from './img/cat.jpg';
+import { Player } from 'video-react';
 
 interface IAppState {
   mouseDown: boolean;
@@ -35,6 +36,10 @@ export class App extends React.Component<{}, IAppState> {
         >
           <img src={cat} />
         </div>
+        <Player
+          playsInline={true}
+          src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+        />
       </div>
     );
   }
