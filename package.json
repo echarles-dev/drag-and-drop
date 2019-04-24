@@ -16,7 +16,6 @@
   },
   "scripts": {
     "start": "run-p watch:*",
-    "startX": "react-scripts start",
     "watch:ts": "react-scripts-ts start",
     "watch:sass": "node-sass --include-path --recursive src --output src --watch",
     "build": "react-scripts build",

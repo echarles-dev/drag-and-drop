@@ -2,6 +2,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### `watch:ts`
+
+Monitors all ts and tsx files. On change, recompiles and restarts server.
+
+### `watch:sass`
+
+Monitors all scss files. On change, recompiles and restarts server.
+
 In the project directory, you can run:
 
 ### `npm start`
