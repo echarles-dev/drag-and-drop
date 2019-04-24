@@ -1,0 +1,21 @@
+{
+  "extends": [
+    
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+	  "webpack.config.js"
+    ]
+  },
+  "rules": {
+    "no-console": false,
+	"jsx-no-lambda": false
+  },
+  "jsRules": {
+  "no-console": false
+  }
+}
